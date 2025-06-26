@@ -6,7 +6,7 @@ const socket = io('http://localhost:3000')
 function App() {
 
   const [input, setInput] = useState('');
-  const [msg, setMessage] = useState([]);
+  const [message, setMessage] = useState([]);
   const [username, setUsername] = useState('');
 
   useEffect(() => {
@@ -33,12 +33,8 @@ function App() {
 
       <h2>Chat App</h2>
       <ul>
-        <li 
-  key={input}
-  className={`message-bubble ${msg.user === username ? "My-message" : "Another-user"}`} >
-  <strong>{msg.user}:</strong>{msg.text}
-</li>
-        </ul>
+       {message.map((msg, index) => <li key={index} className={`message-bubble ${msg.user == username ? "My-message" : "Another-user"}`}><strong>{msg.user}:</strong>{msg.text}</li>)}
+      </ul>
       <div className="input-section">
         <input
           type="text"
