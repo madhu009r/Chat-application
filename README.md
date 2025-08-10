@@ -36,4 +36,50 @@ Click here to try it out: [**Live Chat App**](https://maangchat.netlify.app/)
 ---
 
 ## 📂 Project Structure
+chat-app/
+│
+├── client/ # React frontend
+│ ├── src/
+│ │ ├── components/
+│ │ ├── App.js
+│ │ └── index.js
+│ ├── package.json
+│
+├── server/ # Express + Socket.IO backend
+│ ├── index.js
+│ ├── package.json
+│
+├── README.md
+└── package.json # Root config (optional for concurrent run)
+
+
+## ⚡ Installation & Setup
+
+1️⃣ **Clone the Repository**
+```bash
+git clone https://github.com/yourusername/chat-app.git
+cd chat-app
+## ⚡ Installation & Setup
+
+1️⃣ **Clone the Repository**
+```bash
+git clone https://github.com/yourusername/chat-app.git
+cd chat-app
+cd server
+npm install
+
+cd ../server
+node index.js
+
+cd ../client
+npm start
+
+🔗 API & Socket Events
+Socket Events
+
+joinRoom – User joins a room
+
+message – Send/receive chat messages
+
+disconnect – User leaves
 
