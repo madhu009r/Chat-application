@@ -1,12 +1,95 @@
-# React + Vite
+# Chat-application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 💬 Real-Time Chat Application
 
-Currently, two official plugins are available:
+A real-time chat application built using **React**, **Express**, and **Socket.IO**.  
+This app allows multiple users to join chat rooms, send/receive instant messages, and see who’s online — all in real time.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Preview
+Click here to try it out: [**Live Chat App**](https://maangchat.netlify.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- **Real-Time Messaging** – Powered by [Socket.IO](https://socket.io/)
+- **Multiple Chat Rooms** – Users can join specific rooms
+- **User Join/Leave Notifications**
+- **Online Users List**
+- **Responsive UI** – Works on desktop & mobile
+- **Simple Backend API** with Express.js
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+- React.js
+- Socket.IO Client
+- Tailwind CSS / CSS Modules (Replace with your styling choice)
+
+**Backend:**
+- Node.js
+- Express.js
+- Socket.IO Server
+
+---
+
+## 📂 Project Structure
+chat-app/
+│
+├── client/ # React frontend<br>
+│ ├── src/<br>
+│ │ ├── components/<br>
+│ │ ├── App.js<br>
+│ │ └── index.js<br>
+│ ├── package.json<br>
+│<br>
+├── server/ # Express + Socket.IO backend<br>
+│ ├── index.js<br>
+│ ├── package.json<br>
+│<br>
+├── README.md<br>
+└── package.json # Root config (optional for concurrent run)<br>
+
+
+
+##📧 Contact
+madhubalan009r@gmail.com <br>
+GitHub: @madhu009r
+
+
+## ⚡ Installation & Setup
+
+1️⃣ **Clone the Repository**
+```bash
+git clone https://github.com/yourusername/chat-app.git
+cd chat-app
+## ⚡ Installation & Setup
+
+1️⃣ **Clone the Repository**
+```bash
+git clone https://github.com/yourusername/chat-app.git
+cd chat-app
+cd server
+npm install
+
+cd ../server
+node index.js
+
+cd ../client
+npm start
+
+🔗 API & Socket Events
+Socket Events
+
+joinRoom – User joins a room
+
+message – Send/receive chat messages
+
+disconnect – User leaves
+
+---
+
+
+
