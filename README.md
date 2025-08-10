@@ -38,19 +38,25 @@ Click here to try it out: [**Live Chat App**](https://maangchat.netlify.app/)
 ## 📂 Project Structure
 chat-app/
 │
-├── client/ # React frontend
-│ ├── src/
-│ │ ├── components/
-│ │ ├── App.js
-│ │ └── index.js
-│ ├── package.json
-│
-├── server/ # Express + Socket.IO backend
-│ ├── index.js
-│ ├── package.json
-│
-├── README.md
-└── package.json # Root config (optional for concurrent run)
+├── client/ # React frontend<br>
+│ ├── src/<br>
+│ │ ├── components/<br>
+│ │ ├── App.js<br>
+│ │ └── index.js<br>
+│ ├── package.json<br>
+│<br>
+├── server/ # Express + Socket.IO backend<br>
+│ ├── index.js<br>
+│ ├── package.json<br>
+│<br>
+├── README.md<br>
+└── package.json # Root config (optional for concurrent run)<br>
+
+
+
+##📧 Contact
+madhubalan009r@gmail.com <br>
+GitHub: @madhu009r
 
 
 ## ⚡ Installation & Setup
@@ -86,6 +92,4 @@ disconnect – User leaves
 ---
 
 
-📧 Contact
-Your Name – madhubalan009r@gmail.com
-GitHub: @madhu009r
+
